@@ -1,0 +1,16 @@
+.buttonPage button {
+    width: 100%;
+    background-color: #026E70;
+    border: none;
+    padding: 15px 30px;
+    color: white;
+    cursor: pointer;
+    border-radius: 15px;
+    
+}
+
+.buttonPage:disabled{
+    background-color: #888;
+    cursor: not-allowed;
+    
+}

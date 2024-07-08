@@ -1,0 +1,148 @@
+.container-page {
+    margin: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  
+  .image {
+    max-width: 60%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row-reverse;
+    max-width: 100%;
+    margin: 20px;
+    margin-bottom: 0px;
+  }
+  
+  .image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    float: right;
+  }
+  
+  .text-meta {
+    align-self: center;
+    margin-top: 30px;
+  }
+  
+  .texto {
+    justify-content: left;
+    margin: 15px;
+    margin-bottom: 30px;
+    width: 45%;
+    font-family: "Titillium Web", sans-serif;
+    padding: 15px;
+  }
+
+  .texto h1{
+    margin-bottom: 10px
+  }
+  .texto p{
+    padding-top: 10px
+  }
+  
+  .action-button button {
+    width: 150px;
+    max-height: 70px;
+    height: 40px;
+    background-color: #026E70;
+    border: none;
+    margin: 10px;
+    color: white;
+    cursor: pointer;
+    border-radius: 15px;
+  }
+  
+  .action-button button:hover {
+    background-color: #025557;
+  }
+  
+  .action-button {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  
+  #Favorito {
+    background-color: #F2A71B;
+  }
+  
+  #disclaimer {
+    color: blueviolet;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+  
+  .sobre {
+    margin: 30px;
+    border: 1px solid #ccc;
+    width: 50%;
+    border-radius: 15px;
+    padding: 15px;
+    float: right;
+    margin-right: 0px;
+    background-color: #f9f9f9;
+  }
+  
+  .sobre h2 {
+    margin: 15px;
+  }
+  
+  .sobre p {
+    margin: 15px;
+  }
+  
+  .integrantes {
+    margin-top: 30px;
+    border: 1px solid #ccc;
+    width: 100%;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .integrantes h2 {
+    margin: 15px;
+  }
+  
+  .integrante {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 15px;
+    width: 90%;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+  }
+  
+  .integrante img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-right: 15px;
+  }
+  
+  .integrante-details {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .integrante p {
+    margin: 0;
+  }
+  
+  .integrante p strong {
+    display: inline-block;
+    width: 150px;
+  }
+  
+  .rewards {
+    display: none;
+  }
+  

@@ -1,0 +1,26 @@
+.meta-options-code{
+    width: 100%;
+    background-color: #034159;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px #afafaf;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    margin: 30px;
+}
+
+
+.card-body p{
+    color: #fff;
+    float: left;
+    padding: 10px;
+
+}
+
+.meta-options-code img{
+    margin: 5px;
+    max-width: 30px;
+}
