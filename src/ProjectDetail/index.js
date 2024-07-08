@@ -4,6 +4,7 @@ import { Header } from '../components/Header';
 import ProgressBar from '../components/ProgressBar/ProgressBar';
 import ButtonDownload from '../components/options-button';
 import ButtonCode from '../components/linkCode-button';
+import ecocampus from '../imagens/bannerEcoCampus.png'
 
 class ProjectDetail extends Component {
   state = { 
@@ -44,13 +45,13 @@ class ProjectDetail extends Component {
         <Header />
         <div className='container-page'>
           <div className='image-container'>
-            <img className='image' src='./god-of-war.jpg' align="right" alt="EcoCampus" />
+            <img className='image' src={ecocampus} align="right" alt="EcoCampus" />
             <p id='disclaimer'>Este projeto precisa de colaboradores!</p>
 
             <div className='action-button'>
               <button id='Favorito'>☆ Favoritar</button>
               <button>Se Candidatar</button>
-              <button>Financiar Projeto</button>
+              <button>Entrar em Contato</button>
             </div>
 
             <h3 align="right" className='text-meta'>Meta do Projeto:</h3>

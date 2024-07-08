@@ -13,7 +13,6 @@ const ProgressBar = () => {
        <div className="progress-2"> ⠀⠀⠀⠀⠀⠀⠀⠀⠀</div>
       </>
     </div>
-    <p>78% da meta atingida!</p>
 
     </div>
 
