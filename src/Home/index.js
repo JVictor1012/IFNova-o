@@ -36,6 +36,8 @@ class Home extends Component {
     this.setState({ posts: postsAndPhotos.slice(page,postsPerPage),
     allposts: postsAndPhotos });
 
+    console.log(this.state.posts)
+
   }
 
   loadMorePosts = () => {

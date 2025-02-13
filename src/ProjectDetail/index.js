@@ -5,6 +5,7 @@ import ProgressBar from '../components/ProgressBar/ProgressBar';
 import ButtonDownload from '../components/options-button';
 import ButtonCode from '../components/linkCode-button';
 import ecocampus from '../imagens/bannerEcoCampus.png'
+import fotoPerfil from '../imagens/profile.jpg'
 
 class ProjectDetail extends Component {
   state = { 
@@ -76,7 +77,7 @@ class ProjectDetail extends Component {
           <div className='integrantes'>
             <h2>Integrantes</h2>
             <div className='integrante'>
-              <img src='aluno1.jpg' alt='Foto do aluno 1' />
+              <img src={fotoPerfil} alt='Foto do aluno 1' />
               <div className='integrante-details'>
                 <p><strong>Nome:</strong> João Silva</p>
                 <p><strong>Turma:</strong> 3A</p>
@@ -85,7 +86,7 @@ class ProjectDetail extends Component {
               </div>
             </div>
             <div className='integrante'>
-              <img src='aluno2.jpg' alt='Foto do aluno 2' />
+              <img src={fotoPerfil} alt='Foto do aluno 2' />
               <div className='integrante-details'>
                 <p><strong>Nome:</strong> Maria Santos</p>
                 <p><strong>Turma:</strong> 2B</p>
@@ -94,7 +95,7 @@ class ProjectDetail extends Component {
               </div>
             </div>
             <div className='integrante'>
-              <img src='aluno3.jpg' alt='Foto do aluno 3' />
+              <img src={fotoPerfil} alt='Foto do aluno 3' />
               <div className='integrante-details'>
                 <p><strong>Nome:</strong> Pedro Lima</p>
                 <p><strong>Turma:</strong> 4C</p>
@@ -103,7 +104,7 @@ class ProjectDetail extends Component {
               </div>
             </div>
             <div className='integrante'>
-              <img src='aluno4.jpg' alt='Foto do aluno 4' />
+              <img src={fotoPerfil} alt='Foto do aluno 4' />
               <div className='integrante-details'>
                 <p><strong>Nome:</strong> Ana Costa</p>
                 <p><strong>Turma:</strong> 1D</p>
